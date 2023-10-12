@@ -3,11 +3,11 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require_once "library/PHPMailer.php";
-require_once "library/Exception.php";
-require_once "library/OAuth.php";
-require_once "library/POP3.php";
-require_once "library/SMTP.php";
+require_once "PHPMailer.php";
+require_once "Exception.php";
+require_once "OAuth.php";
+require_once "POP3.php";
+require_once "SMTP.php";
  
 	$mail = new PHPMailer;
  
